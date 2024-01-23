@@ -6,9 +6,11 @@ module.exports = function(eleventyConfig) {
   
     // Copy `css/fonts/` to `_site/css/fonts`
     // Keeps the same directory structure.
-    eleventyConfig.addPassthroughCopy("css/fonts");
+    eleventyConfig.addPassthroughCopy("css");
   
     // Copy any .jpg file to `_site`, via Glob pattern
     // Keeps the same directory structure.
     eleventyConfig.addPassthroughCopy("**/*.jpg");
+
+    eleventyConfig.addPassthroughCopy("moon.html");
   };

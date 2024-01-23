@@ -1,0 +1,19 @@
+body {
+    padding-top: 5%;
+    padding-right: 25%;
+    padding-bottom: 25%;
+    padding-left: 25%;
+  }
+
+  body {
+    color: rgb(255, 255, 255);
+    background-color: black;
+  }
+  
+  h1 {
+    color: rgb(122, 122, 122);
+  }
+
+  div {
+    padding-left: 20%;
+  }
